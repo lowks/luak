@@ -13,5 +13,8 @@ class HelloWorldApp {
             System.out.println(s);
         }
         System.out.println(raw_string.toUpperCase());
+        String long_string = "xxxxxxxxxxxxxxxxxxxx";
+        int length = long_string.length();
+        System.out.println("The length of the long string is: " + length);
     }
 }
