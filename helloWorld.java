@@ -18,5 +18,18 @@ class HelloWorldApp {
         System.out.println("The length of the long string is: " + length);
         String reverse = new StringBuilder(name).reverse().toString();
         System.out.println(reverse);
+        System.out.println(raw_string.toUpperCase().toLowerCase());
+        System.out.println(raw_string.replace("lowks","lukecibai"));
+        if ( long_string instanceof String ) {
+            System.out.println("Luke is a cibai !");
+        }
+
+        int a_number = 10;
+
+        if (getType(a_number).equals("int")) {
+            System.out.println("Hallelujah for Luke");
+        } else {
+            System.out.println("Fuck Luke!");
+        }
     }
 }
