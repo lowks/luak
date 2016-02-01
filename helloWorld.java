@@ -24,12 +24,10 @@ class HelloWorldApp {
             System.out.println("Luke is a cibai !");
         }
 
-        int a_number = 10;
+        Integer a_number = 10;
+	if ( a_number instanceof Integer ) {
+		System.out.println("I am an integer");
+	}
 
-        if (getType(a_number).equals("int")) {
-            System.out.println("Hallelujah for Luke");
-        } else {
-            System.out.println("Fuck Luke!");
-        }
     }
 }
