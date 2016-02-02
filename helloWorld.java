@@ -29,5 +29,17 @@ class HelloWorldApp {
 		System.out.println("I am an integer");
 	}
 
+	if (Integer.valueOf(a_number) instanceof Integer) { 
+	        System.out.println("Hello Sian Lerk"); 
+	}
+
+	System.out.println(Integer.valueOf("1"));
+
+	System.out.println(new StringBuilder().append("lowks ").append("hates ").append("java").toString());
+	print_string();
+    }
+
+    public static void print_string() {
+	    System.out.println("Print me!");
     }
 }
