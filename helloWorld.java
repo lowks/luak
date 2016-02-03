@@ -37,9 +37,19 @@ class HelloWorldApp {
 
 	System.out.println(new StringBuilder().append("lowks ").append("hates ").append("java").toString());
 	print_string();
+	print_name("lowks");
+	helloworld();
     }
 
     public static void print_string() {
-	    System.out.println("Print me!");
+        System.out.println("Print me!");
     }
-}
+
+    public static void print_name(String name) {
+        System.out.println("Helloworld " + name);
+    }
+
+    public void helloworld() {
+	System.out.println("helloworld");
+    }
+
