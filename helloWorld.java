@@ -38,7 +38,8 @@ class HelloWorldApp {
 	System.out.println(new StringBuilder().append("lowks ").append("hates ").append("java").toString());
 	print_string();
 	print_name("lowks");
-	helloworld();
+	String string_c = "     I    have got many spaces      ";
+	System.out.println(string_c.trim()); 
     }
 
     public static void print_string() {
@@ -48,8 +49,4 @@ class HelloWorldApp {
     public static void print_name(String name) {
         System.out.println("Helloworld " + name);
     }
-
-    public void helloworld() {
-	System.out.println("helloworld");
-    }
-
+}
