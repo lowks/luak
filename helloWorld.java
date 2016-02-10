@@ -40,6 +40,7 @@ class HelloWorldApp {
 	print_name("lowks");
 	String string_c = "     I    have got many spaces      ";
 	System.out.println(string_c.trim()); 
+	System.out.println(long_string.replaceAll("x", "lowks"));
     }
 
     public static void print_string() {
